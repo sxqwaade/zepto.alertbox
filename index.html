@@ -1,0 +1,21 @@
+<!DOCTYPE>
+ <html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>UI-弹出框</title>
+        <meta >
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <script type="text/javascript" src="zepto.js"></script>
+        <script type="text/javascript" src="zepto.alertbox.dev.js"></script>
+    </head>
+    <body>
+    <input  type="button" value="显示弹框">
+    <script type="text/javascript">
+        $("input").on('tap',function(){
+            alertbox.show({
+                title:"标题标题"
+            });
+        });
+    </script>
+    </body>
+</html>
